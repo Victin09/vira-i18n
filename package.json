@@ -1,0 +1,30 @@
+{
+    "name": "vira-i18n",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "rm -r ./dist/* && npx tsc && node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Victin09/vira-i18n.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Victin09/vira-i18n/issues"
+    },
+    "homepage": "https://github.com/Victin09/vira-i18n#readme",
+    "devDependencies": {
+        "@types/node": "^16.6.1",
+        "@types/node-fetch": "^2.5.12",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "node-fetch": "^2.6.1"
+    }
+}
