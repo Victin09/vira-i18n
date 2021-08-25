@@ -1,1 +1,1 @@
-export { i18n, t } from './lib/translator'
+export { Translator } from './lib/translator';
