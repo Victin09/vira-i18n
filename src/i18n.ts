@@ -1,10 +1,10 @@
-import { ILocale, IResources } from '../types/translator.types';
+import { ILocale, IResources } from './types/i18n.types';
 
-export class Translator {
-    private resources: IResources = {};
+export class I18n {
     private language: string;
+    private resources: IResources = {};
     
-    public constructor(language = 'en', locales: ILocale[] = []) {
+    public constructor(language: string = 'en', locales: Array<ILocale> = []) {
         const locale = locales.find(item => item.language === language);
 
         this.language = language;
